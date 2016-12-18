@@ -1,0 +1,7 @@
+<h1>These are all the posts</h1>
+
+<% @posts.each do |instance| %>
+<h3>Post <%=instance.id%> </h3>
+<h5>Name <%=instance.name%></h5>
+<h5>Content <%=instance.content%></h5>
+<% end%> 
